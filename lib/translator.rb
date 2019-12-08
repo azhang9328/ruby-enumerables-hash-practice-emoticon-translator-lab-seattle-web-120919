@@ -13,6 +13,7 @@ def load_library(file)
   orgfile
 end
 
+<<<<<<< HEAD
 def get_japanese_emoticon(file, engemote)
   emotefile = load_library(file)
   p emotefile[:get_emoticon]
@@ -21,6 +22,11 @@ def get_japanese_emoticon(file, engemote)
   else 
     p "Sorry, that emoticon was not found"
   end 
+=======
+def get_japanese_emoticon(file, japemote)
+  p load_library(file)
+  
+>>>>>>> a6cd0351ae003792b0918ee58e1eed0833b2ac30
 end
 
 def get_english_meaning(file, japemote)
